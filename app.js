@@ -67,6 +67,22 @@
 // let b = a++;
 // console.log(a);
 // console.log(b);
-let a = 10;
-let b = ++a;
-console.log(a);
+// this is pre increment
+// let a = 10;
+// let b = ++a;
+// console.log(a);
+// now conditional statements if and else
+// if(we have to write here condition ){
+//
+// }
+// else{
+//
+// }
+// let age = 12;
+// if (age > 9) {
+//   console.log("ur correct");
+// } else {
+//   console.log("shut up ");
+// }
+let amount = 2300;
+console.log(amount);
