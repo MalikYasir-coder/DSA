@@ -106,9 +106,15 @@
 // now when we have to compare if and switch case
 // when we have to check same value or constant values then we use switch statement
 // and if we cant use break it prints next line also thats why we use break
-// Now Loop
+// Now Loops
+// for loop while loop do while loop
 // console.log("Hello");
 // now for loop if loop does not exist there is no whatsapp insta facebook e commerce also
-for (var i = 1; i < 2; i++) {
-  console.log("hello");
+// for(start;end;change)
+// for (var i = 1; i < 9; i++) {
+//   console.log(i);
+// }
+// 200 se 100 tk
+for (var i = 200; i > 99; i--) {
+  console.log(i);
 }
