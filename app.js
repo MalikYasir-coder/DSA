@@ -115,6 +115,15 @@
 //   console.log(i);
 // }
 // 200 se 100 tk
-for (var i = 200; i > 99; i--) {
-  console.log(i);
+// if we not give condition of i-- or i++ it runs infinite
+// if we use var we can print outside the function if we use let we cant write outside the function it gives error
+// for (var i = 200; i > 99; i--) {
+//   console.log(i);
+// }
+// sum of n
+var sum = 0;
+var n = 5;
+for (var i = 1; i <= n; i++) {
+  sum = sum + i;
 }
+console.log(sum);
