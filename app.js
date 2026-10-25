@@ -84,5 +84,25 @@
 // } else {
 //   console.log("shut up ");
 // }
-let amount = 2300;
-console.log(amount);
+// let amount = 2300;
+// console.log(amount);
+// Ternary Operator ?:
+// 12 > 13 ? console.log("correct") : console.log("wrong");
+// Nested Ternary Operator
+// let num = 12;
+// console.log(num > 0 ? "positive" : num < 0 ? "Negative" : "zero");
+// now Switch case
+// let day = 2;
+// switch (day) {
+//   case 1:
+//     console.log("Monday");
+//     break;
+//   case 2:
+//     console.log("Tuesday");
+//     break;
+//   default:
+//     console.log("Invalid");
+// }
+// now when we have to compare if and switch case
+// when we have to check same value or constant values then we use switch statement
+// and if we cant use break it prints next line also thats why we use break
