@@ -143,8 +143,32 @@
 //   Code;
 //   change;
 // }
-var i = 1;
-while (i < 23) {
-  console.log(i);
-  i++;
+// var i = 1;
+// while (i < 23) {
+//   console.log(i);
+//   i++;
+// }
+// do while loop
+// start
+// do{code
+//     change
+// };
+// while(end)
+// basically do while me code 1 bar to lazmi chlega condition true ho ya false
+// var i = 1;
+// do {
+//   console.log("Hey");
+//   i++;
+// } while (i > 12);
+loops;
+for (start; end; Change) {}
+start;
+while (end) {
+  code;
+  change;
 }
+start;
+do {
+  code;
+  change;
+} while (end);
