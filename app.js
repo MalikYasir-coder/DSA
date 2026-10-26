@@ -121,9 +121,30 @@
 //   console.log(i);
 // }
 // sum of n
-var sum = 0;
-var n = 5;
-for (var i = 1; i <= n; i++) {
-  sum = sum + i;
+// var sum = 0;
+// var n = 5;
+// for (var i = 1; i <= n; i++) {
+//   sum = sum + i;
+// }
+// console.log(sum);
+// break and continue
+// break loop ko rokta hai or continue current iteration ko skip krdeta hai
+// for (var i = 1; i < 23; i++) {
+//   if (i === 11) continue;
+//   else console.log(i);
+// }
+// now while loop
+// for loop is like this
+// for(start,end,change){
+
+// }
+// start;
+// while (end) {
+//   Code;
+//   change;
+// }
+var i = 1;
+while (i < 23) {
+  console.log(i);
+  i++;
 }
-console.log(sum);
