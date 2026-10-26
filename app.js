@@ -160,15 +160,18 @@
 //   console.log("Hey");
 //   i++;
 // } while (i > 12);
-loops;
-for (start; end; Change) {}
-start;
-while (end) {
-  code;
-  change;
-}
-start;
-do {
-  code;
-  change;
-} while (end);
+// loops;
+// for (start; end; Change) {}
+// start;
+// while (end) {
+//   code;
+//   change;
+// }
+// start;
+// do {
+//   code;
+//   change;
+// } while (end);
+// Now Pattern Programming
+process.stdout.write("hello");
+process.stdout.write("world");
