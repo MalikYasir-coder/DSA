@@ -223,15 +223,18 @@
 //   }
 //   console.log();
 // }
-for (var i = 1; i < 6; i++) {
-  for (var j = 1; j < 7 - i + 1; j++) {
-    process.stdout.write(j + "");
-  }
-  console.log();
-}
+// for (var i = 1; i < 6; i++) {
+//   for (var j = 1; j < 7 - i + 1; j++) {
+//     process.stdout.write(j + "");
+//   }
+//   console.log();
+// }
 // Now Array
 let arr = [];
-// push here add Element in array
-arr.push = 100;
-arr.push = 10;
+// push here add elements
+arr.push(100);
+arr.push("malik");
+// pop here removes element from last
+arr.pop();
 console.log(arr);
+console.log(arr[0]);
