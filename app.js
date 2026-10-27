@@ -231,5 +231,7 @@ for (var i = 1; i < 6; i++) {
 }
 // Now Array
 let arr = [];
+// push here add Element in array
 arr.push = 100;
+arr.push = 10;
 console.log(arr);
