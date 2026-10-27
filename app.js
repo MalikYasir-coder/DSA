@@ -229,4 +229,7 @@ for (var i = 1; i < 6; i++) {
   }
   console.log();
 }
-let a = 1233;
+// Now Array
+let arr = [];
+arr.push = 100;
+console.log(arr);
