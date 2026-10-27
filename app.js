@@ -230,11 +230,19 @@
 //   console.log();
 // }
 // Now Array
-let arr = [];
-// push here add elements
-arr.push(100);
-arr.push("malik");
-// pop here removes element from last
-arr.pop();
+// Array is a linear ds which stores multiple values in a continuous manner
+// let arr = [];
+// // push here add elements
+// arr.push(100);
+// arr.push("malik");
+// // pop here removes element from last
+// arr.pop();
+// console.log(arr);
+// console.log(arr[0]);
+// Now getting value from prompt in array
+const prompt = require("prompt-sync")();
+let arr = new Array(5);
+for (var i = 0; i < arr.length; i++) {
+  arr[i] = Number(prompt("enter a value"));
+}
 console.log(arr);
-console.log(arr[0]);
