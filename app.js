@@ -230,3 +230,7 @@ for (var i = 1; i < 6; i++) {
   }
   console.log();
 }
+for (var j = 1; j < 7 - i + 1; j++) {
+  process.stdout.write(j + "");
+}
+console.log();
