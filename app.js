@@ -221,6 +221,7 @@
 //   for (var j = 1; j < i; j++) {
 //     process.stdout.write("* ");
 //   }
+sdwke;
 //   console.log();
 // }
 for (var i = 1; i < 7; i++) {
