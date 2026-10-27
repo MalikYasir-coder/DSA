@@ -221,7 +221,6 @@
 //   for (var j = 1; j < i; j++) {
 //     process.stdout.write("* ");
 //   }
-sdwke;
 //   console.log();
 // }
 for (var i = 1; i < 6; i++) {
@@ -230,3 +229,4 @@ for (var i = 1; i < 6; i++) {
   }
   console.log();
 }
+let a = 1233;
