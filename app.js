@@ -224,7 +224,7 @@
 sdwke;
 //   console.log();
 // }
-for (var i = 1; i < 7; i++) {
+for (var i = 1; i < 8; i++) {
   for (var j = 1; j < 7 - i + 1; j++) {
     process.stdout.write(j + "");
   }
