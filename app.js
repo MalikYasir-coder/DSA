@@ -173,5 +173,59 @@
 //   change;
 // } while (end);
 // Now Pattern Programming
-process.stdout.write("hello");
-process.stdout.write("world");
+// process.stdout.write("hello");
+// process.stdout.write("world");
+// agr hmare pass 2 ya 2 se zayda output hai or hm chahte hai k sari output 1 hi line aye to hm process.stdout.write use krenge
+// const prompt = require("prompt-sync")();
+// let a = prompt("enter your age ");
+// console.log(a);
+// process.stdout.write("hey i am ");
+// process.stdout.write("a yasir");
+// process.stdout.write("*");
+// process.stdout.write("*");
+// process.stdout.write("*");
+// process.stdout.write("*");
+// process.stdout.write("*");
+// for (var n = 1; n < 6; n++) {
+//   process.stdout.write("* ");
+// }
+// console.log();
+// for (var n = 1; n < 6; n++) {
+//   process.stdout.write("* ");
+// }
+// console.log();
+// for (var n = 1; n < 6; n++) {
+//   process.stdout.write("* ");
+// }
+// console.log();
+// for (var n = 1; n < 6; n++) {
+//   process.stdout.write("* ");
+// }
+// console.log();
+// // for (var n = 1; n < 10; n++) {
+// //   process.stdout.write("* ");
+// // }
+// // console.log();
+// // for (var n = 1; n < 10; n++) {
+// //   process.stdout.write("* ");
+// // }
+// // console.log();
+// here we use loop in loop for reducing code which makes most reusable code
+// for (var i = 1; i < 7; i++) {
+//   for (var j = 1; j < 7; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+// for (var i = 1; i < 7; i++) {
+//   for (var j = 1; j < i; j++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log();
+// }
+for (var i = 1; i < 7; i++) {
+  for (var j = 1; j < 7 - i + 1; j++) {
+    process.stdout.write(j + "");
+  }
+  console.log();
+}
