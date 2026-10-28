@@ -304,10 +304,55 @@
 // arr[arr.length - 1] = copy;
 // console.log(arr);
 // rotating right side by 1 Element
-let arr = [1, 2, 3, 4, 5];
-let copy = arr[arr.length - 1];
-for (let i = arr.length - 1; i > 0; i--) {
-  arr[i] = arr[i - 1];
-}
-arr[0] = copy;
-console.log(arr);
+// let arr = [1, 2, 3, 4, 5];
+// let copy = arr[arr.length - 1];
+// for (let i = arr.length - 1; i > 0; i--) {
+//   arr[i] = arr[i - 1];
+// }
+// arr[0] = copy;
+// console.log(arr);
+// again reversing the array for practice
+// let arr = [12, 23, 34, 45, 56];
+// let temp = new Array(arr.length);
+// let j = 0;
+// for (i = arr.length - 1; i >= 0; i--) {
+//   temp[j] = arr[i];
+//   j++;
+// }
+// console.log(temp);
+// now rotating left by 1 element
+// let arr = [1, 2, 3, 4, 5];
+// let copy = arr[0];
+// for (i = 0; i < arr.length - 1; i++) {
+//   arr[i] = arr[i + 1];
+// }
+// arr[arr.length - 1] = copy;
+// console.log(arr);
+// again rotating right by 1 element
+// let arr = [1, 2, 3, 4, 5];
+// let copy = arr[arr.length - 1];
+// for (let i = arr.length - 1; i > 0; i--) {
+//   arr[i] = arr[i - 1];
+// }
+// arr[0] = copy;
+// console.log(arr);
+// now nested looping
+// for (i = 1; i <= 4; i++) {
+//   console.log("execution");
+//   for (j = 1; j <= 4; j++) {
+//     console.log("hey");
+//   }
+// }
+// now again rotating left by 2 element
+// const prompt = require("prompt-sync")();
+// let arr = [1, 2, 3, 4, 5];
+// let k = Number(prompt("Enter The Value Of K "));
+// for (let j = 0; j < k; j++) {
+//   let copy = arr[0];
+//   for (let i = 0; i < arr.length - 1; i++) {
+//     arr[i] = arr[i + 1];
+//   }
+//   arr[arr.length - 1] = copy;
+// }
+// console.log(arr);
+// now removing duplicates from sorted array
