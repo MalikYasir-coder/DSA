@@ -279,11 +279,35 @@
 //   j++;
 // }
 // console.log(temp);
-let arr = [10, 20, 30, 40, 50];
-let temp = new Array(arr.length);
-let j = 0;
-for (let i = arr.length - 1; i >= 0; i--) {
-  temp[j] = arr[i];
-  j++;
+// let arr = [10, 20, 30, 40, 50];
+// let temp = new Array(arr.length);
+// let j = 0;
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   temp[j] = arr[i];
+//   j++;
+// // }
+// // console.log(temp);
+// let arr = [10, 20, 30, 40, 50];
+// let temp = new Array(arr.length);
+// let j = 0;
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   temp[j] = arr[i];
+//   j++;
+// }
+// console.log(temp);
+// // Rotating Left side by 1 Element
+// let arr = [1, 2, 3, 4, 5];
+// let copy = arr[0];
+// for (let i = 0; i < arr.length - 1; i++) {
+//   arr[i] = arr[i + 1];
+// }
+// arr[arr.length - 1] = copy;
+// console.log(arr);
+// rotating right side by 1 Element
+let arr = [1, 2, 3, 4, 5];
+let copy = arr[arr.length - 1];
+for (let i = arr.length - 1; i > 0; i--) {
+  arr[i] = arr[i - 1];
 }
-console.log(temp);
+arr[0] = copy;
+console.log(arr);
