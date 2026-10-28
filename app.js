@@ -240,9 +240,50 @@
 // console.log(arr);
 // console.log(arr[0]);
 // Now getting value from prompt in array
-const prompt = require("prompt-sync")();
-let arr = new Array(5);
-for (var i = 0; i < arr.length; i++) {
-  arr[i] = Number(prompt("enter a value"));
+// const prompt = require("prompt-sync")();
+// let arr = new Array(5);
+// for (var i = 0; i < arr.length; i++) {
+//   arr[i] = Number(prompt("enter a value"));
+// }
+// console.log(arr);
+// sum of n elements
+// let arr = [10, 20, 30, 40, 50];
+// let sum = 0;
+// for (let i = 1; i < arr.length; i++) {
+//   sum = sum + arr[i];
+// }
+// console.log(sum);
+// Now finding maximum numbers
+// let arr = [10, 4, 78, 100, 5];
+// let max = arr[0];
+// for (let i = 1; i < arr.length; i++) {
+//   if (=max < arr[i]) {
+//     max = arr[i];
+//   }
+// }
+// console.log(max);
+// Now reversing the array with extra space
+// let arr = [10, 20, 30, 40, 50];
+// let temp = new Array(arr.length);
+// let j = 0;
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   temp[j] = arr[i];
+//   j++;
+// }
+// console.log(temp);
+// let arr = [10, 20, 30, 40, 50];
+// let temp = new Array(arr.length);
+// let j = 0;
+// for (let i = arr.length - 1; i >= 0; i--) {
+//   temp[j] = arr[i];
+//   j++;
+// }
+// console.log(temp);
+let arr = [10, 20, 30, 40, 50];
+let temp = new Array(arr.length);
+let j = 0;
+for (let i = arr.length - 1; i >= 0; i--) {
+  temp[j] = arr[i];
+  j++;
 }
-console.log(arr);
+console.log(temp);
