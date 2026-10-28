@@ -355,4 +355,4 @@
 //   arr[arr.length - 1] = copy;
 // }
 // console.log(arr);
-// now removing duplicates from sorted array
+// now string
